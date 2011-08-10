@@ -1,0 +1,3 @@
+console.log("Hello world");
+me.speed = 20;
+me.jumpVelocity(90);

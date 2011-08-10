@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{3F7E2CE5-E746-ECC5-4C34-A567F2CE0CC5}") = "WorldScript", "Assembly-CSharp.csproj", "{506B6A8B-C4F5-2F94-C3F8-528A2D5D7CE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{506B6A8B-C4F5-2F94-C3F8-528A2D5D7CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506B6A8B-C4F5-2F94-C3F8-528A2D5D7CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506B6A8B-C4F5-2F94-C3F8-528A2D5D7CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506B6A8B-C4F5-2F94-C3F8-528A2D5D7CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
