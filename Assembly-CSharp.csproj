@@ -45,9 +45,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\EngineScripts\CameraScript.cs" />
+     <Compile Include="Assets\EngineScripts\GameContext.cs" />
      <Compile Include="Assets\EngineScripts\JurassicRunner.cs" />
      <Compile Include="Assets\EngineScripts\PlayerScript.cs" />
      <Compile Include="Assets\JSInterface\Console.cs" />
+     <Compile Include="Assets\JSInterface\JSBlockType.cs" />
+     <Compile Include="Assets\JSInterface\JSGame.cs" />
      <Compile Include="Assets\JSInterface\JSPlayer.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\ skybox info.txt" />
      <None Include="Assets\TestScripts\TestStuff.txt" />

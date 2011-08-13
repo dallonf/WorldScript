@@ -1,3 +1,16 @@
-console.log("Hello world");
-me.speed = 20;
-me.jumpVelocity(90);
+var red = game.BlockType("red");
+red.red = 255;
+red.green = 0;
+red.blue = 0;
+
+var blue = game.BlockType("blue");
+blue.red = 0;
+blue.green = 0;
+blue.blue = 255;
+
+
+var red = true;
+for (var i = 0; i < 64; i++) {
+	red = !red;
+	game.setBlock(i, 0, red ? "red" : "blue");
+}
