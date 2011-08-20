@@ -6,9 +6,9 @@ using UnityEngine;
 public class JSPlayer : ObjectInstance
 {
 	
-	private PlayerScript player;
+	private PlayerController player;
 	
-	public JSPlayer(ScriptEngine engine, PlayerScript player) : base(engine)
+	public JSPlayer(ScriptEngine engine, PlayerController player) : base(engine)
 	{
 		this.player = player;
 		this.PopulateFunctions();

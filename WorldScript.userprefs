@@ -1,15 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JSInterface\JSGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EngineScripts\Classes\ParamEventArgs.cs">
     <Files>
-      <File FileName="Assets\EngineScripts\JurassicRunner.cs" Line="22" Column="1" />
-      <File FileName="Assets\EngineScripts\CameraScript.cs" Line="12" Column="3" />
-      <File FileName="Assets\EngineScripts\PlayerScript.cs" Line="34" Column="1" />
-      <File FileName="Assets\JSInterface\Console.cs" Line="22" Column="1" />
-      <File FileName="Assets\JSInterface\JSPlayer.cs" Line="6" Column="39" />
+      <File FileName="Assets\EngineScripts\PlayerController.cs" Line="5" Column="30" />
+      <File FileName="Assets\JSInterface\JSMap.cs" Line="46" Column="3" />
+      <File FileName="Assets\EngineScripts\MapController.cs" Line="34" Column="1" />
+      <File FileName="Assets\EngineScripts\GameContext.cs" Line="18" Column="68" />
+      <File FileName="Assets\EngineScripts\JurassicRunner.cs" Line="19" Column="1" />
       <File FileName="Assets\JSInterface\JSGame.cs" Line="26" Column="2" />
-      <File FileName="Assets\EngineScripts\GameContext.cs" Line="14" Column="12" />
-      <File FileName="Assets\JSInterface\JSBlockType.cs" Line="26" Column="1" />
+      <File FileName="Assets\EngineScripts\CameraController.cs" Line="4" Column="30" />
+      <File FileName="Assets\JSInterface\JSPlayer.cs" Line="11" Column="55" />
+      <File FileName="Assets\JSInterface\JSBlockType.cs" Line="66" Column="8" />
+      <File FileName="Assets\EngineScripts\Classes\ParamEventArgs.cs" Line="7" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

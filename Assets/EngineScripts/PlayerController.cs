@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
-public class PlayerScript : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
 	
 	public float Speed;
 	public float JumpVelocity;

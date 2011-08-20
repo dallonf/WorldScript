@@ -24,11 +24,8 @@ public class JSGame : ObjectInstance
 		}
 	}
 	
-	[JSFunction(Name = "setBlock")]
-	public void SetBlock(int x, int y, string blockType)	
-	{
-		context.SetBlock(x, y, BlockType(blockType));	
-	}
+	[JSProperty(Name = "map")]
+	public JSMap Map { get { return context.Map; } }
 }
 
 

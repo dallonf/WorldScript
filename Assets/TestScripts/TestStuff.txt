@@ -1,16 +1,16 @@
 var red = game.BlockType("red");
 red.red = 255;
-red.green = 0;
-red.blue = 0;
-
 var blue = game.BlockType("blue");
-blue.red = 0;
-blue.green = 0;
 blue.blue = 255;
 
 
-var red = true;
-for (var i = 0; i < 64; i++) {
-	red = !red;
-	game.setBlock(i, 0, red ? "red" : "blue");
+var startRed = true;
+var isRed = true;
+for (var x = 0; x < 64; x++) {
+	isRed = startRed;
+	for (var y = 0; y < x + 1; y++) {
+		game.map.set(x, y, isRed ? red : blue);
+		isRed = !isRed;
+	}
+	startRed = !startRed;
 }

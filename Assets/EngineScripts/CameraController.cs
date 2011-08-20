@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class CameraScript : MonoBehaviour {
+public class CameraController : MonoBehaviour {
 
 	public Transform Player;
 	public int Zoom = 10;
